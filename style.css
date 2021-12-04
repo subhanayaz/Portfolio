@@ -18,6 +18,11 @@
     z-index: 1;
 }
 
+.navbtn:hover{
+  background-color: black;
+  color: white;
+}
+
 /* progress bar */
 .progress{
     height: 30px;
