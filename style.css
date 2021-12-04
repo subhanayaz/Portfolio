@@ -12,10 +12,16 @@
     font-size: 22px;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 /* progress bar */
 .progress{
     height: 30px;
-    width: 400px;
+    width: 380px;
     border-radius: 50px;
     transition: all 0.5 ease;
 }
@@ -36,6 +42,75 @@
 }
 
 .card:hover{
-    transform: scale(1.1);
+    /* transform: scale(1); */
     box-shadow: 1px 2px 10px black;
 }
+
+/* socialbutton */
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 49px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .footersocial{
+    padding: 5px;
+    font-size:8px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.9;
+    background-color: black;
+    color: white;
+}
+  .fa-github {
+    background: black;
+    
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #E1306C;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-whatsapp {
+    background: #4AC959;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .black:hover{
+      background-color: black;
+  }
+
+  /* .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  } */
+
+  .imgpad{
+    padding: 30px;
+  }
