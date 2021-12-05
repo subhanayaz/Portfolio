@@ -3,13 +3,18 @@
     padding: 0;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 /* navbar */
 .navbar-nav{
     font-size: 22px;
 }
 
 .navbar-brand{
-    font-size: 22px;
+    font-size: 40px;
 }
 
 .navbar{
@@ -24,9 +29,17 @@
 }
 
 /* progress bar */
+.pbar{
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(177, 177, 177); 
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .progress{
     height: 30px;
-    width: 380px;
     border-radius: 50px;
     transition: all 0.5 ease;
 }
@@ -48,7 +61,7 @@
 
 .card:hover{
     /* transform: scale(1); */
-    box-shadow: 1px 2px 10px black;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0); 
 }
 
 /* socialbutton */
@@ -119,3 +132,18 @@
   .imgpad{
     padding: 30px;
   }
+
+  .submit{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: grey;
+  border: 2px solid gray;
+  color: white;
+}
