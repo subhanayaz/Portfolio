@@ -1,149 +1,153 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
 /* navbar */
-.navbar-nav{
-    font-size: 22px;
+.navbar-nav {
+  font-size: 22px;
 }
 
-.navbar-brand{
-    font-size: 35px;
+.navbar-brand {
+  font-size: 35px;
 }
 
-.navbar{
-    position: sticky;
-    top: 0;
-    z-index: 1;
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.navbtn:hover{
+.navbtn:hover {
   background-color: black;
   color: white;
 }
 
 /* progress bar */
-.pbar{
+.pbar {
   border: 1px solid rgb(180, 180, 180);
   border-radius: 5px;
-  box-shadow: 1px 1px 5px rgb(177, 177, 177); 
+  box-shadow: 1px 1px 5px rgb(177, 177, 177);
   padding-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
-.progress{
-    height: 30px;
-    border-radius: 50px;
-    transition: all 0.5 ease;
+.progress {
+  height: 30px;
+  border-radius: 50px;
+  transition: all 0.5 ease;
 }
 
-.progress:hover{
-    transform: scale(0.9);
+.progress:hover {
+  transform: scale(0.9);
 }
 
 /* card */
-.card{
-    transition: all 0.5 ease;
+.card {
+  transition: all 0.5 ease;
 }
 
-.card img{
-    height: 300px;
-    width: 300px;
-    margin: auto;
+.card img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
 
-.card:hover{
-    /* transform: scale(1); */
-    box-shadow: 1px 1px 5px rgb(0, 0, 0); 
+.card:hover {
+  /* transform: scale(1); */
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 /* socialbutton */
 .fa {
-    padding: 15px;
-    font-size: 20px;
-    width: 49px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-
-  .footersocial{
-    padding: 5px;
-    font-size:8px;
-    width: 25px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-
-  .fa:hover {
-    opacity: 0.9;
-    background-color: black;
-    color: white;
+  padding: 12px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
-  .fa-github {
-    background: black;
-    
-    color: white;
-  }
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+.footersocial {
+  padding: 5px;
+  font-size: 8px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
-  .fa-instagram {
-    background: #E1306C;
-    color: white;
-  }
+.fa:hover {
+  opacity: 0.9;
+  background-color: black;
+  color: white;
+}
+.fa-github {
+  background: black;
 
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+  color: white;
+}
 
-  .fa-whatsapp {
-    background: #4AC959;
-    color: white;
-  }
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
 
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
+.fa-instagram {
+  background: #e1306c;
+  color: white;
+}
 
-  .black:hover{
-      background-color: black;
-  }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
-  /* .center{
+.fa-whatsapp {
+  background: #4ac959;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.black:hover {
+  background-color: black;
+}
+
+/* .center{
       display: flex;
       justify-content: center;
       align-items: center;
   } */
 
-  .imgpad{
-    padding: 30px;
-  }
+.imgpad {
+  padding: 30px;
+}
 
-  .submit{
-    background-color: black;
-    color: white;
-    border: none;
-    width: 80px;
-    height: 35px;
-    border-radius: 5px;
+.submit {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
 }
 
 .submit:hover {
   background-color: grey;
   border: 2px solid gray;
   color: white;
+}
+
+.footerfont {
+  font-family: "PT Serif", serif;
 }
